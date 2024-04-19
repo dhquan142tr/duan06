@@ -82,6 +82,7 @@
 .col,
 .row[class*="row-cols-"] > *,
 .row > [class*="col-"] {
+    margin-top: var(--spacer);
     padding-left: calc(var(--spacer) / 2);
     padding-right: calc(var(--spacer) / 2);
 }
