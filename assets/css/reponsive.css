@@ -1,0 +1,273 @@
+/* PC */
+@media screen and (min-width: 992px) {
+    .navbar__menu {
+        display: none;
+    }
+}
+
+/* Tablet & mobie */
+
+@media screen and (max-width: 991.98px) {
+    .navbar-list {
+        display: none;
+    }
+
+    .navbar__email--tt {
+        display: none;
+    }
+    .workplace__images {
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .navbar {
+        justify-content: space-between;
+    }
+    .navbar-logo__email {
+        order: 2;
+    }
+
+    .navbar-logo {
+        left: 45px;
+    }
+    .navbar__email {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-left: auto;
+    }
+
+    .navbar-logo__email {
+        width: 34px;
+    }
+
+    .header-info {
+        order: 1;
+    }
+
+    .adidas-left {
+        order: 2;
+    }
+
+    .header-info {
+        margin-left: 0;
+        left: 0;
+    }
+
+    .header-content {
+        margin-left: 40px;
+        margin-right: 40px;
+        flex-direction: column;
+        align-items: normal;
+    }
+
+    .header__spr {
+        width: 377px;
+        height: 2px;
+        background: #d6d3e2;
+    }
+
+    .header-info {
+        margin-top: 50px;
+    }
+
+    .header__spr {
+        width: calc(100% - 40px);
+        height: 1px;
+        background-color: #d6d3e2;
+        margin-top: 15px;
+    }
+
+    .hero {
+        background-image: none;
+    }
+
+    .header-social {
+        margin-top: 24px;
+    }
+
+    .clients__inner {
+        flex-direction: column;
+    }
+
+    .client__heading {
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .client__heading::before {
+        top: -5px;
+        left: 93px;
+    }
+
+    .client__list {
+        margin-left: 0;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-top: 40px;
+    }
+
+    .portfolio {
+        margin-top: 120px;
+    }
+
+    .row-hide-on__tablet {
+        flex-wrap: nowrap;
+        overflow: hidden;
+    }
+
+    .portfolio-item__desc {
+        width: 290px;
+    }
+
+    .project__top {
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .project__desc {
+        margin-left: 0;
+        margin-left: auto;
+        margin-right: auto;
+        color: #fff;
+    }
+
+    .project__heading {
+        width: 100%;
+    }
+
+    .footer__below {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer__desc--left {
+        margin-left: 0;
+        order: 2;
+    }
+
+    .footer__right {
+        margin-right: 0;
+        order: 1;
+    }
+}
+
+/* Tablet */
+
+@media screen and (min-width: 768px) and (max-width: 991.98px) {
+}
+
+/* Mobie */
+@media screen and (max-width: 767.98px) {
+    .navbar-logo {
+        width: 80px;
+    }
+    .header-img {
+        width: 100%;
+    }
+
+    .header-title {
+        font-size: 4.2rem;
+    }
+
+    .btn {
+        min-width: 147px;
+        padding: 13px 16px;
+        font-size: 1.6rem;
+    }
+
+    .adidas-left {
+        margin-left: 0;
+    }
+
+    .header-action {
+        margin-top: 30px;
+    }
+
+    .client__heading {
+        font-size: 2.8rem;
+    }
+
+    .portfolio-heading {
+        font-size: 3.6rem;
+    }
+
+    .project-item__img {
+        width: 122px;
+        height: 93px;
+    }
+
+    .project-item__title {
+        font-size: 2.4rem;
+    }
+
+    .project-item__desc {
+        font-size: 1.4rem;
+    }
+
+    .project-item__link {
+        font-size: 1.6rem;
+    }
+
+    .project__top {
+        text-align: center;
+    }
+
+    .introduce-greeting__title {
+        font-size: 2rem;
+    }
+
+    .section-heading {
+        font-size: 3.6rem;
+    }
+
+    .introduce__desc {
+        font-size: 1.6rem;
+        width: 100%;
+    }
+
+    .introduce-item__number {
+        font-size: 3rem;
+    }
+
+    .introduce-item__sub-title {
+        font-size: 1.6rem;
+    }
+
+    .introduce__list {
+        gap: 50px;
+    }
+
+    .question__content {
+        font-size: 2.4rem;
+    }
+
+    .question__icon {
+        width: 32px;
+    }
+
+    .workplace {
+        margin-top: 120px;
+    }
+
+    .contact__heading {
+        width: 225px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .contact__desc {
+        font-size: 1.6rem;
+    }
+
+    .footer__cpm {
+        width: 100%;
+    }
+
+    .introduce__seperate-bottom,
+    .introduce__seperate {
+        width: 100%;
+    }
+}
